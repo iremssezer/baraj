@@ -8,10 +8,10 @@
 ## Dataset from the BURSA AÇIK VERİ PLATFORMU: 
 
 
-Aylara Göre Toplam Yağış Miktarı Ortalaması: [https://acikyesil.bursa.bel.tr/dataset/aylaragoretoplamyagismiktariortalamasi]
+- Aylara Göre Toplam Yağış Miktarı Ortalaması: [https://acikyesil.bursa.bel.tr/dataset/aylaragoretoplamyagismiktariortalamasi]
 
 
-Bursa barajlarının dönemlere göre doluluk oranı: [https://acikyesil.bursa.bel.tr/dataset/baraj-bursa]
+- Bursa barajlarının dönemlere göre doluluk oranı: [https://acikyesil.bursa.bel.tr/dataset/baraj-bursa]
 
 
 ## Tüketimin Zaman İçinde Değişimi
@@ -41,10 +41,10 @@ Bursa barajlarının dönemlere göre doluluk oranı: [https://acikyesil.bursa.b
 ![image](https://github.com/iremssezer/baraj/assets/74788732/5ba20ac4-b83a-4f84-88e4-40e71ef02bc7)
 
 
-Rastgele oluşturulmuş birden çok karar ağacının çıktısını birleştiren, regresyon ve sınıflandırma problemlerini çözmek için kullanılan bir makine öğrenme algoritmasıdır.
+- Rastgele oluşturulmuş birden çok karar ağacının çıktısını birleştiren, regresyon ve sınıflandırma problemlerini çözmek için kullanılan bir makine öğrenme algoritmasıdır.
 
 
-Hiper parametre kestirimi yapılmadan da iyi sonuçlar vermesi hem regresyon hem de sınıflandırma problemlerine uygulanabilir olmasından dolayı popüler makine öğrenmesi modellerinden biridir.
+- Hiper parametre kestirimi yapılmadan da iyi sonuçlar vermesi hem regresyon hem de sınıflandırma problemlerine uygulanabilir olmasından dolayı popüler makine öğrenmesi modellerinden biridir.
 
 
 ## Hiperparametre Optimizasyonu
@@ -53,20 +53,20 @@ Hiper parametre kestirimi yapılmadan da iyi sonuçlar vermesi hem regresyon hem
 ![image](https://github.com/iremssezer/baraj/assets/74788732/eadb2591-78ed-488c-b393-f23f965829e7)
 
 
-Lineer Regresyon bağımlı ve bağımsız değişkenler arasında y= mx+b fonksiyonuyla ifade edilebilecek doğrusal bir ilişki olduğunu varsayar. Lineer Regresyon modelinin eğitilmesi sırasında çeşitli optimizasyon teknikleri kullanılarak en uygun m ve b değerleri belilenir bu değerler model parametreleridir.
+- Lineer Regresyon bağımlı ve bağımsız değişkenler arasında y= mx+b fonksiyonuyla ifade edilebilecek doğrusal bir ilişki olduğunu varsayar. Lineer Regresyon modelinin eğitilmesi sırasında çeşitli optimizasyon teknikleri kullanılarak en uygun m ve b değerleri belilenir bu değerler model parametreleridir.
 
 
-Parametrelerden farklı olarak hiperparametreler modelin eğitilmesi sırasında öğrenilmez. Modelleme aşamasının öncesinde veri bilimci tarafından belirlenirler.
+- Parametrelerden farklı olarak hiperparametreler modelin eğitilmesi sırasında öğrenilmez. Modelleme aşamasının öncesinde veri bilimci tarafından belirlenirler.
 
 
-Hiperparametre optimizasyonu, bir makine öğrenmesi algoritması için belirlenen başarı metriğine göre en uygun hiperparametre kombinasyonunu bulma işlemidir.
+- Hiperparametre optimizasyonu, bir makine öğrenmesi algoritması için belirlenen başarı metriğine göre en uygun hiperparametre kombinasyonunu bulma işlemidir.
 
 
-Hiperparametre optimizasyonu ile model karmaşıklığı dengelenerek overfitting ve underfitting dengesi sağlanabilir.
+- Hiperparametre optimizasyonu ile model karmaşıklığı dengelenerek overfitting ve underfitting dengesi sağlanabilir.
 
 
 ### RandomizedSearchCV
 
 
-Rastgele olarak bir hiperparametre seti seçilir ve cross-validation ile model kurularak test edilir. Belirlenen hesaplama süresi limitine ya da iterasyon sayısına ulaşıncaya kadar bu adımlar devam eder
+- Rastgele olarak bir hiperparametre seti seçilir ve cross-validation ile model kurularak test edilir. Belirlenen hesaplama süresi limitine ya da iterasyon sayısına ulaşıncaya kadar bu adımlar devam eder
 
