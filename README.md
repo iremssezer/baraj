@@ -1,5 +1,5 @@
 # baraj
-## Scikits Learn
+## Scikit Learn
 
 
 ![image](https://github.com/iremssezer/baraj/assets/74788732/62ff6f79-536d-4520-b926-99f5a3834bee)
@@ -11,7 +11,7 @@
 - Aylara Göre Toplam Yağış Miktarı Ortalaması: [https://acikyesil.bursa.bel.tr/dataset/aylaragoretoplamyagismiktariortalamasi]
 
 
-- Bursa barajlarının dönemlere göre doluluk oranı: [https://acikyesil.bursa.bel.tr/dataset/baraj-bursa]
+- Aylara göre doluluk oranı: [https://acikyesil.bursa.bel.tr/dataset/baraj-bursa]
 
 
 ## Tüketimin Zaman İçinde Değişimi
@@ -68,11 +68,7 @@
 
 - Hiperparametre optimizasyonu ile model karmaşıklığı dengelenerek overfitting ve underfitting dengesi sağlanabilir.
 
-
-### RandomizedSearchCV
-
-
-- Rastgele olarak bir hiperparametre seti seçilir ve cross-validation ile model kurularak test edilir.
-  
-- Belirlenen hesaplama süresi limitine ya da iterasyon sayısına ulaşıncaya kadar bu adımlar devam eder.
-
+## Çıktı: En iyi parametreler: {'n_estimators': 200, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'auto', 'max_depth': 10, 'bootstrap': True}
+## En iyi skor: 0.4665125711999218
+## Mean Squared Error: 0.018214372607244195
+## R-squared: 0.7594109805498662
