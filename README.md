@@ -32,6 +32,8 @@
 ![image](https://github.com/iremssezer/baraj/assets/74788732/a981485b-b6b1-4b8b-a1e1-bb2522d7e13c)
 
 
+
+
 ### Doğancı ve Nilüfer barajlarına ait veriler kullanılarak tahmin yapılmıştır.
 
 
@@ -70,5 +72,7 @@
 ### RandomizedSearchCV
 
 
-- Rastgele olarak bir hiperparametre seti seçilir ve cross-validation ile model kurularak test edilir. Belirlenen hesaplama süresi limitine ya da iterasyon sayısına ulaşıncaya kadar bu adımlar devam eder
+- Rastgele olarak bir hiperparametre seti seçilir ve cross-validation ile model kurularak test edilir.
+  
+- Belirlenen hesaplama süresi limitine ya da iterasyon sayısına ulaşıncaya kadar bu adımlar devam eder.
 
