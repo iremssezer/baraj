@@ -51,24 +51,17 @@
 - Hiper parametre kestirimi yapılmadan da iyi sonuçlar vermesi hem regresyon hem de sınıflandırma problemlerine uygulanabilir olmasından dolayı popüler makine öğrenmesi modellerinden biridir.
 
 
-## Hiperparametre Optimizasyonu
+
+![image](https://github.com/iremssezer/baraj/assets/74788732/70f2c1f2-54f3-4c38-9512-d85d6d7bf3f7)
 
 
-![image](https://github.com/iremssezer/baraj/assets/74788732/eadb2591-78ed-488c-b393-f23f965829e7)
+![image](https://github.com/iremssezer/baraj/assets/74788732/78d9dbcd-a154-4990-97eb-9cf05c08d04f)
 
 
-- Lineer Regresyon bağımlı ve bağımsız değişkenler arasında y= mx+b fonksiyonuyla ifade edilebilecek doğrusal bir ilişki olduğunu varsayar. Lineer Regresyon modelinin eğitilmesi sırasında çeşitli optimizasyon teknikleri kullanılarak en uygun m ve b değerleri belilenir bu değerler model parametreleridir.
+![image](https://github.com/iremssezer/baraj/assets/74788732/18bd86ee-a3c9-4cd9-8652-4bbbecd340d1)
 
 
-- Parametrelerden farklı olarak hiperparametreler modelin eğitilmesi sırasında öğrenilmez. Modelleme aşamasının öncesinde veri bilimci tarafından belirlenirler.
+![image](https://github.com/iremssezer/baraj/assets/74788732/6e193e55-8560-43c5-868a-18b6a05173cd)
 
 
-- Hiperparametre optimizasyonu, bir makine öğrenmesi algoritması için belirlenen başarı metriğine göre en uygun hiperparametre kombinasyonunu bulma işlemidir.
 
-
-- Hiperparametre optimizasyonu ile model karmaşıklığı dengelenerek overfitting ve underfitting dengesi sağlanabilir.
-
-## Çıktı: En iyi parametreler: {'n_estimators': 200, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'auto', 'max_depth': 10, 'bootstrap': True}
-## En iyi skor: 0.4665125711999218
-## Mean Squared Error: 0.018214372607244195
-## R-squared: 0.7594109805498662
