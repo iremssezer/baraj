@@ -35,6 +35,8 @@
 ### Doğancı ve Nilüfer barajlarına ait veriler kullanılarak tahmin yapılmıştır.
 
 
+
+
 ## Random Forest Regressor modeli kullanıldı.
 
 
